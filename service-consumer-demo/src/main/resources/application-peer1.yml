@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-consumer
+  cloud:
+    circuitbreaker:
+      resilience4j:
+        enabled: true
+  profiles: peer1
+server:
+  port: 8200
+
+feign.sentinel.enabled: true
+eureka.client.serviceUrl.defaultZone: http://localhost:8000/eureka/

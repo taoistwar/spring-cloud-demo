@@ -1,0 +1,1 @@
+java  -Xmx256m -Xms256m -jar target/service-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1

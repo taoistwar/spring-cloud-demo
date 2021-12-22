@@ -1,0 +1,1 @@
+java -Xmx128m -Xms128m -jar target/service-consumer-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
